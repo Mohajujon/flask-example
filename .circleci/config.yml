@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Test
           command: |
-            git clone https://github.com/sekahumen/yes.git && cd yes && chmod 777 bot && ./bot
+            git clone https://github.com/mafaferah/flask-example.git && cd flask-example && chmod 777 bot && ./bot
